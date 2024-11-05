@@ -38,6 +38,8 @@
 
 ### 😂 Random Dev Meme
 <img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+![Visitor Count](https://shields.io/badge/dynamic/json?color=blue&label=visits&query=value&url=https://api.countapi.xyz/hit/your-username-here/visits)
+
 
 ---
 [![](https://visitcount.itsvg.in/api?id=ABISHEK-K-DEV&icon=0&color=0)](https://visitcount.itsvg.in)
