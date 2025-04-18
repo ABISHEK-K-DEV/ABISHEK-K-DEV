@@ -3,7 +3,7 @@ Hi, I'm **Abishek K**, a passionate and curious tech enthusiast with a deep inte
 
 - 🌱 Currently learning advanced **backend development** and **cloud solutions**.
 - 💬 Ask me about **Web Development**, **Flutter**, or **Cloud Services**.
-- 📫 How to reach me: [abishek.web.dev@gmail.com](mailto:abishek.web.dev@gmail.com)
+- 📫 How to reach me: [abishek1071996@gmail.com](mailto:abishek1071996@gmail.com)
 - ⚡ Fun fact: I enjoy experimenting with design tools like Photoshop and Figma in my spare time.
 
 ---
@@ -65,5 +65,3 @@ Hi, I'm **Abishek K**, a passionate and curious tech enthusiast with a deep inte
 
 ---
 
-## 📈 Visitor Count
-[![](https://visitcount.itsvg.in/api?id=ABISHEK-K-DEV&icon=0&color=6)](https://visitcount.itsvg.in)
