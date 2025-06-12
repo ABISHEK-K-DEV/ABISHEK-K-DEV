@@ -8,16 +8,18 @@ Hi, I'm **Abishek K** — a passionate tech enthusiast with deep interests in co
 
 ---
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abishek-web-developer/) 
+## 🌐 Socials & Links
+
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="36" title="LinkedIn"/>](https://www.linkedin.com/in/abishek-fullstack/) 
+[<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/npm.svg" width="36" title="npm Profile" style="background:white; border-radius:7px;"/>](https://www.npmjs.com/~abisheks238)
 
 ---
 
 ## 📦 npm Packages
 
-- [My npm profile](https://www.npmjs.com/~abisheks238)
 - Main package: [@abisheks238/react-toaster](https://www.npmjs.com/package/@abisheks238/react-toaster)  
-  GitHub: [ABISHEK-K-DEV/react-toaster](https://github.com/ABISHEK-K-DEV/react-toaster)
+[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="36" title="react-toaster Repo"/>](https://github.com/ABISHEK-K-DEV/react-toaster)
+  
 
 ---
 
