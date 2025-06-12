@@ -10,9 +10,10 @@ Hi, I'm **Abishek K** — a passionate tech enthusiast with deep interests in co
 
 ## 🌐 Socials & Links
 
-[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="36" title="LinkedIn"/>](https://www.linkedin.com/in/abishek-fullstack/) 
-[<img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/npm.svg" width="36" title="npm Profile" style="background:white; border-radius:7px;"/>](https://www.npmjs.com/~abisheks238)
+## 🌐 Socials & Links
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abishek-fullstack/)
+[![npm](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~abisheks238)
 ---
 
 ## 📦 npm Packages
