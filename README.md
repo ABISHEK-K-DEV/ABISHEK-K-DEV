@@ -6,10 +6,6 @@ Hi, I'm **Abishek K** — a passionate tech enthusiast with deep interests in co
 - 📫 Reach me: [abishek1071996@gmail.com](mailto:abishek1071996@gmail.com)
 - ⚡ Fun fact: I enjoy experimenting with design tools like Photoshop and Figma in my spare time
 
----
-
-## 🌐 Socials & Links
-
 ## 🌐 Socials & Links
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abishek-fullstack/)
@@ -19,7 +15,7 @@ Hi, I'm **Abishek K** — a passionate tech enthusiast with deep interests in co
 ## 📦 npm Packages
 
 - Main package: [@abisheks238/react-toaster](https://www.npmjs.com/package/@abisheks238/react-toaster)  
-[<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="36" title="react-toaster Repo"/>](https://github.com/ABISHEK-K-DEV/react-toaster)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ABISHEK-K-DEV/react-toaster)
   
 
 ---
