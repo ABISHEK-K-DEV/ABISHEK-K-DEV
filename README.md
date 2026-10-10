@@ -1,118 +1,176 @@
-<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Abishek%20K&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20%E2%80%A2%20Mobile%20%E2%80%A2%20Cloud&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Abishek K" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%F0%9F%9A%80;Building+with+React+%2B+Node.js+%E2%9A%9B%EF%B8%8F;Cross-platform+apps+with+Flutter+%F0%9F%93%B1;Shipping+to+the+Cloud+on+AWS+%E2%98%81%EF%B8%8F;Open-source+npm+author+%F0%9F%93%A6" alt="Typing SVG" />
-</a>
+<img src="./assets/hero.svg" width="100%" alt="Abishek K — Full Stack MERN Developer · AWS & SQL" />
 
 <br/>
 
-<a href="https://www.linkedin.com/in/abishek-fullstack/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://www.npmjs.com/~abisheks238"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
-<a href="mailto:abishek1071996@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=ABISHEK-K-DEV&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" alt="Profile views" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=640&lines=I+build+scalable+web+apps+%26+REST+APIs;Admin+dashboards+that+teams+love+to+use;Cross-platform+mobile+apps+with+Flutter;Deploying+on+AWS+%E2%98%81%EF%B8%8F;Publishing+open-source+on+npm+%F0%9F%93%A6" alt="Typing intro" /></a>
+
+<p>
+  <a href="https://www.linkedin.com/in/abishek-fullstack/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:abishek1071996@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.npmjs.com/~abisheks238"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a>
+  <a href="https://github.com/ABISHEK-K-DEV?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=ABISHEK-K-DEV&style=flat-square&color=8b5cf6&label=profile+views" alt="Profile views" />
+<img src="https://img.shields.io/github/followers/ABISHEK-K-DEV?style=flat-square&logo=github&label=followers&color=22d3ee" alt="Followers" />
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## 🧑‍💻 About Me
+## ⚡ About Me
 
 <table>
 <tr>
-<td width="60%" valign="top">
+<td width="55%" valign="top">
 
-Hi, I'm **Abishek K** — a passionate tech enthusiast with deep interests in computer science and technology. I thrive on solving complex problems and exploring new trends, with a focus on **web & mobile app development** and **cloud technologies**.
+Hi, I'm **Abishek K** — a full-stack developer who loves turning complex problems into clean, fast products. I work across **web**, **mobile** and **cloud**, and I'm always exploring what's next in tech.
 
-- 🌱 Currently leveling up in **advanced backend** & **cloud architecture**
-- 💬 Ask me about **Web Development**, **Flutter**, or **Cloud Services**
-- 📦 Author of open-source npm packages
-- 🎨 Fun fact: I love experimenting with **Photoshop** & **Figma**
-- 📫 Reach me at **[abishek1071996@gmail.com](mailto:abishek1071996@gmail.com)**
+- 🔭 Building **scalable web apps, admin dashboards & APIs**
+- 🌱 Leveling up in **advanced backend** & **cloud architecture**
+- 💬 Ask me about **React**, **Node.js**, **Flutter** or **AWS**
+- 📦 Author of **[@abisheks238/react-toaster](https://www.npmjs.com/package/@abisheks238/react-toaster)**
+- 🎨 Off the clock: designing in **Figma** & **Photoshop**
+- 📫 **[abishek1071996@gmail.com](mailto:abishek1071996@gmail.com)**
 
 </td>
-<td width="40%" valign="top">
+<td width="45%" valign="top">
 
 ```ts
-const abishek = {
-  role: "Full-Stack Developer",
-  code: ["JavaScript", "TypeScript", "Dart", "SQL"],
-  stack: {
-    frontend: ["React", "HTML5", "CSS3"],
-    backend:  ["Node.js", "Express", "MongoDB"],
-    mobile:   ["Flutter"],
-    cloud:    ["AWS", "S3"],
-  },
+// abishek.config.ts
+export default {
+  role: "Full Stack MERN Developer",
+  languages: ["JavaScript", "TypeScript",
+              "Dart", "SQL", "Python"],
+  web:    ["React", "Node.js",
+           "Express", "MongoDB"],
+  mobile: ["Flutter"],
+  cloud:  ["AWS", "S3"],
   design: ["Figma", "Photoshop", "Canva"],
-  learning: "Cloud-native backends ☁️",
-};
+  status: "🚀 shipping",
+} as const;
 ```
 
 </td>
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## 🛠️ Tech Stack
+## 🧰 Tech Stack
 
 <div align="center">
 
-| Domain | Tools |
-| :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev/icons?i=js,ts,dart&theme=dark" height="40" alt="Languages" /> |
-| **Frontend** | <img src="https://skillicons.dev/icons?i=html,css,react,tailwind&theme=dark" height="40" alt="Frontend" /> |
-| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,mysql&theme=dark" height="40" alt="Backend" /> |
-| **Mobile** | <img src="https://skillicons.dev/icons?i=flutter,androidstudio&theme=dark" height="40" alt="Mobile" /> |
-| **Cloud & DevOps** | <img src="https://skillicons.dev/icons?i=aws,git,github,githubactions&theme=dark" height="40" alt="Cloud" /> |
-| **Design** | <img src="https://skillicons.dev/icons?i=figma,ps&theme=dark" height="40" alt="Design" /> <img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" height="28" alt="Canva" /> |
+<table>
+  <tr>
+    <td align="center" width="140"><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=js,ts,dart,mysql,python" alt="Languages" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=html,css,react" alt="Frontend" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb" alt="Backend" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Mobile</b></td>
+    <td><img src="https://skillicons.dev/icons?i=flutter" alt="Mobile" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Cloud & Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=aws,git,github,vscode" alt="Cloud and tools" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Design</b></td>
+    <td><img src="https://skillicons.dev/icons?i=figma,ps" alt="Design" /> <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" height="40" alt="Canva" /></td>
+  </tr>
+</table>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## 📦 Featured Project
+## 🚀 Featured Work
 
 <div align="center">
 
 <a href="https://github.com/ABISHEK-K-DEV/react-toaster">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=react-toaster&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="react-toaster" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=react-toaster&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=react-toaster&hide_border=true&title_color=7c3aed&icon_color=0891b2&bg_color=f6f8fa" alt="react-toaster" />
+  </picture>
+</a>
+<a href="https://github.com/ABISHEK-K-DEV/CollabHub">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=CollabHub&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=CollabHub&hide_border=true&title_color=7c3aed&icon_color=0891b2&bg_color=f6f8fa" alt="CollabHub" />
+  </picture>
+</a>
+<a href="https://github.com/ABISHEK-K-DEV/FinaceFlow">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=FinaceFlow&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=FinaceFlow&hide_border=true&title_color=7c3aed&icon_color=0891b2&bg_color=f6f8fa" alt="FinaceFlow" />
+  </picture>
+</a>
+<a href="https://github.com/ABISHEK-K-DEV/Voice-Controlled-AI-Using-ChatGPT-And-Other-Software-Tools">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=Voice-Controlled-AI-Using-ChatGPT-And-Other-Software-Tools&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ABISHEK-K-DEV&repo=Voice-Controlled-AI-Using-ChatGPT-And-Other-Software-Tools&hide_border=true&title_color=7c3aed&icon_color=0891b2&bg_color=f6f8fa" alt="Voice-Controlled AI" />
+  </picture>
 </a>
 
-<a href="https://www.npmjs.com/package/@abisheks238/react-toaster"><img src="https://img.shields.io/npm/v/@abisheks238/react-toaster?style=for-the-badge&logo=npm&color=CB3837" alt="npm version" /></a>
-<a href="https://www.npmjs.com/package/@abisheks238/react-toaster"><img src="https://img.shields.io/npm/dt/@abisheks238/react-toaster?style=for-the-badge&color=7c3aed" alt="npm downloads" /></a>
-<a href="https://github.com/ABISHEK-K-DEV/react-toaster"><img src="https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github" alt="GitHub repo" /></a>
+<br/><br/>
+
+<a href="https://www.npmjs.com/package/@abisheks238/react-toaster"><img src="https://img.shields.io/npm/v/@abisheks238/react-toaster?style=flat-square&logo=npm&label=react-toaster&color=CB3837" alt="npm version" /></a>
+<a href="https://www.npmjs.com/package/@abisheks238/react-toaster"><img src="https://img.shields.io/npm/dt/@abisheks238/react-toaster?style=flat-square&label=downloads&color=8b5cf6" alt="npm downloads" /></a>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## 📊 GitHub Analytics
+## 📈 GitHub Analytics
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=ABISHEK-K-DEV&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ABISHEK-K-DEV&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top languages" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ABISHEK-K-DEV&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=22d3ee&ring_color=f472b6" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api?username=ABISHEK-K-DEV&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=f6f8fa&title_color=7c3aed&icon_color=0891b2&ring_color=db2777" alt="GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ABISHEK-K-DEV&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa" />
+  <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ABISHEK-K-DEV&layout=compact&langs_count=8&hide_border=true&bg_color=f6f8fa&title_color=7c3aed" alt="Top languages" />
+</picture>
 
-<img src="https://streak-stats.demolab.com?user=ABISHEK-K-DEV&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub streak" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ABISHEK-K-DEV&hide_border=true&background=0D1117&ring=A78BFA&fire=F472B6&currStreakNum=FFFFFF&sideNums=22D3EE&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E&stroke=30363D" />
+  <img src="https://streak-stats.demolab.com?user=ABISHEK-K-DEV&hide_border=true&background=F6F8FA&ring=7C3AED&fire=DB2777&currStreakNum=1F2328&sideNums=0891B2&currStreakLabel=7C3AED&sideLabels=1F2328&dates=57606A&stroke=D0D7DE" alt="GitHub streak" />
+</picture>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ABISHEK-K-DEV&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" alt="Contribution graph" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ABISHEK-K-DEV&bg_color=0d1117&color=a78bfa&line=22d3ee&point=f472b6&area=true&area_color=22d3ee&hide_border=true&custom_title=Contribution%20Activity" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ABISHEK-K-DEV&bg_color=f6f8fa&color=7c3aed&line=0891b2&point=db2777&area=true&area_color=0891b2&hide_border=true&custom_title=Contribution%20Activity" alt="Contribution activity graph" />
+</picture>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🏆 Trophies
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=ABISHEK-K-DEV&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=ABISHEK-K-DEV&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=-1" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ABISHEK-K-DEV&theme=flat&no-frame=true&no-bg=true&margin-w=8&column=-1" alt="GitHub trophies" />
+</picture>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ## 🐍 Contribution Snake
 
@@ -120,21 +178,22 @@ const abishek = {
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/github-snake.svg" />
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/github-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/github-snake.svg" alt="Snake eating my contribution graph" />
 </picture>
 
 </div>
 
----
-
-## ✍️ Dev Quote of the Day
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" alt="Dev quote" />
+</picture>
+
+<br/><br/>
+
+<sub>⭐ If something here helped you, consider starring a repo — it keeps me building.</sub>
 
 </div>
-
-<!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%" alt="footer" />

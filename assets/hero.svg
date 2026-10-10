@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Abishek K — Full Stack MERN Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b16"/>
+      <stop offset="1" stop-color="#111733"/>
+    </linearGradient>
+    <linearGradient id="name" spreadMethod="reflect" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset=".5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0;0.5 0;-0.5 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+    <radialGradient id="fade" cx=".5" cy=".5" r=".7">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="1200" height="420" fill="url(#fade)"/></mask>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="card"><rect width="1200" height="420" rx="28"/></clipPath>
+    <style>
+      .orb{animation:float 14s ease-in-out infinite}
+      .o2{animation-duration:18s;animation-direction:reverse}
+      .o3{animation-duration:22s}
+      @keyframes float{0%,100%{transform:translate(0,0)}33%{transform:translate(60px,-30px)}66%{transform:translate(-40px,40px)}}
+      .sans{font-family:'Segoe UI',Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace}
+      .rise{opacity:0;animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
+      @keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+      .d1{animation-delay:.1s}.d2{animation-delay:.35s}.d3{animation-delay:.6s}.d4{animation-delay:.85s}
+      .line{opacity:0;animation:type .01s forwards}
+      .l1{animation-delay:1.0s}.l2{animation-delay:1.4s}.l3{animation-delay:1.8s}.l4{animation-delay:2.2s}
+      .l5{animation-delay:2.6s}.l6{animation-delay:3.0s}.l7{animation-delay:3.4s}.l8{animation-delay:3.8s}
+      @keyframes type{to{opacity:1}}
+      .cursor{animation:blink 1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .pulse{transform-origin:center;transform-box:fill-box;animation:pulse 2s ease-out infinite}
+      @keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(3);opacity:0}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity=".55">
+      <circle class="orb" cx="180" cy="80" r="160" fill="#7c3aed"/>
+      <circle class="orb o2" cx="1050" cy="360" r="170" fill="#0891b2"/>
+      <circle class="orb o3" cx="680" cy="40" r="120" fill="#db2777"/>
+    </g>
+    <rect width="1200" height="420" fill="url(#grid)" mask="url(#gridmask)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="419" rx="28" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+
+  <!-- Left: intro -->
+  <g class="rise d1">
+    <rect x="64" y="78" width="214" height="34" rx="17" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+    <circle cx="86" cy="95" r="5" fill="#34d399"/>
+    <circle class="pulse" cx="86" cy="95" r="5" fill="#34d399"/>
+    <text x="102" y="100" class="sans" font-size="13" font-weight="600" letter-spacing="1.5" fill="#d1d5db">OPEN TO COLLABORATE</text>
+  </g>
+  <g class="rise d2">
+    <text x="60" y="190" class="sans" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#name)" filter="url(#glow)" opacity=".35">Abishek K</text>
+    <text x="60" y="190" class="sans" font-size="78" font-weight="800" letter-spacing="-2" fill="url(#name)">Abishek K</text>
+  </g>
+  <text x="64" y="236" class="sans rise d3" font-size="24" font-weight="600" fill="#e5e7eb">Full Stack MERN Developer · AWS &amp; SQL</text>
+  <text x="64" y="270" class="sans rise d3" font-size="17" fill="#9ca3af">Scalable web apps, admin dashboards &amp; APIs.</text>
+  <g class="rise d4 mono" font-size="13" font-weight="600">
+    <rect x="64" y="304" width="88" height="30" rx="8" fill="#61dafb" fill-opacity=".12" stroke="#61dafb" stroke-opacity=".4"/>
+    <text x="108" y="324" text-anchor="middle" fill="#61dafb">React</text>
+    <rect x="162" y="304" width="96" height="30" rx="8" fill="#68a063" fill-opacity=".15" stroke="#68a063" stroke-opacity=".5"/>
+    <text x="210" y="324" text-anchor="middle" fill="#8cc84b">Node.js</text>
+    <rect x="268" y="304" width="96" height="30" rx="8" fill="#47a248" fill-opacity=".12" stroke="#47a248" stroke-opacity=".5"/>
+    <text x="316" y="324" text-anchor="middle" fill="#6cc24a">MongoDB</text>
+    <rect x="374" y="304" width="88" height="30" rx="8" fill="#02569b" fill-opacity=".2" stroke="#42a5f5" stroke-opacity=".5"/>
+    <text x="418" y="324" text-anchor="middle" fill="#42a5f5">Flutter</text>
+    <rect x="472" y="304" width="66" height="30" rx="8" fill="#ff9900" fill-opacity=".12" stroke="#ff9900" stroke-opacity=".5"/>
+    <text x="505" y="324" text-anchor="middle" fill="#ffb347">AWS</text>
+  </g>
+
+  <!-- Right: terminal -->
+  <g class="rise d3">
+    <rect x="690" y="70" width="450" height="280" rx="16" fill="#0b1020" fill-opacity=".85" stroke="#ffffff" stroke-opacity=".1"/>
+    <path d="M690 86a16 16 0 0 1 16-16h418a16 16 0 0 1 16 16v20H690z" fill="#ffffff" fill-opacity=".04"/>
+    <circle cx="714" cy="88" r="6" fill="#ff5f57"/>
+    <circle cx="734" cy="88" r="6" fill="#febc2e"/>
+    <circle cx="754" cy="88" r="6" fill="#28c840"/>
+    <text x="915" y="93" text-anchor="middle" class="mono" font-size="12" fill="#6b7280">~/abishek — zsh</text>
+    <g class="mono" font-size="14.5">
+      <text x="714" y="138" class="line l1"><tspan fill="#34d399">❯</tspan><tspan fill="#e5e7eb"> whoami</tspan></text>
+      <text x="714" y="162" class="line l2" fill="#a78bfa">abishek-k — full-stack developer</text>
+      <text x="714" y="196" class="line l3"><tspan fill="#34d399">❯</tspan><tspan fill="#e5e7eb"> cat stack.json</tspan></text>
+      <text x="714" y="220" class="line l4"><tspan fill="#9ca3af">{ </tspan><tspan fill="#f472b6">"web"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#fde68a">"MERN"</tspan><tspan fill="#9ca3af">,</tspan></text>
+      <text x="730" y="244" class="line l5"><tspan fill="#f472b6">"mobile"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#fde68a">"Flutter"</tspan><tspan fill="#9ca3af">,</tspan></text>
+      <text x="730" y="268" class="line l6"><tspan fill="#f472b6">"cloud"</tspan><tspan fill="#9ca3af">: </tspan><tspan fill="#fde68a">"AWS"</tspan><tspan fill="#9ca3af"> }</tspan></text>
+      <text x="714" y="302" class="line l7"><tspan fill="#34d399">❯</tspan><tspan fill="#e5e7eb"> npm i @abisheks238/react-toaster</tspan></text>
+      <text x="714" y="326" class="line l8"><tspan fill="#22d3ee">✔ ready to ship</tspan><tspan class="cursor" fill="#e5e7eb"> ▍</tspan></text>
+    </g>
+  </g>
+</svg>
