@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="210" viewBox="0 0 590 210" role="img" aria-label="react-toaster">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070a14"/><stop offset="1" stop-color="#11162c"/></linearGradient>
+  <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#a78bfa"/><stop offset=".35" stop-color="#22d3ee" stop-opacity=".25"/>
+    <stop offset=".65" stop-color="#f472b6" stop-opacity=".25"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+    <stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+  <radialGradient id="vig" cx=".5" cy=".4" r=".75"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+  <mask id="gm"><rect width="590" height="210" fill="url(#vig)"/></mask>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="42"/></filter>
+  <filter id="glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  <clipPath id="clip"><rect width="590" height="210" rx="22"/></clipPath>
+  <style>
+  .sans{font-family:'Segoe UI',Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif} .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace}
+  .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes fu{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  .pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.34,1.56,.64,1) forwards}
+  @keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
+  .orb{animation:float 16s ease-in-out infinite}
+  .orb2{animation-duration:21s;animation-direction:reverse}
+  @keyframes float{0%,100%{transform:translate(0,0)}33%{transform:translate(50px,-25px)}66%{transform:translate(-35px,30px)}}
+  .shine{animation:shine 7s ease-in-out infinite}
+  @keyframes shine{0%,55%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+  .twinkle{animation:tw 3s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(1);opacity:.75}100%{transform:scale(3.2);opacity:0}}
+  .bob{animation:bob 4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+  .blink{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+</style>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="590" height="210" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity=".5">
+    <circle class="orb" cx="70.8" cy="21" r="94.5" fill="#a78bfa"/>
+    <circle class="orb orb2" cx="531" cy="199.5" r="94.5" fill="#22d3ee"/>
+  </g>
+  <rect width="590" height="210" fill="url(#grid)" mask="url(#gm)"/>
+  <circle class="twinkle" cx="0" cy="0" r="1.4" fill="#fff" style="animation-delay:0s"/><circle class="twinkle" cx="533" cy="149" r="0.9" fill="#fff" style="animation-delay:0.45s"/><circle class="twinkle" cx="476" cy="88" r="0.9" fill="#fff" style="animation-delay:0.9s"/><circle class="twinkle" cx="419" cy="27" r="1.4" fill="#fff" style="animation-delay:1.35s"/><circle class="twinkle" cx="362" cy="176" r="0.9" fill="#fff" style="animation-delay:1.8s"/>
+  <rect class="shine" x="0" y="0" width="590" height="210" fill="url(#sweep)" transform="skewX(-20)"/>
+</g>
+<rect x="1" y="1" width="588" height="208" rx="21" fill="none" stroke="url(#bd)" stroke-width="1.6"/>
+
+
+<g class="fu" style="animation-delay:0.15s"><path d="M5 4a2 2 0 0 1 2-2h12v16H7a2 2 0 0 0-2 2zM5 20a2 2 0 0 0 2 2h12v-4" transform="translate(32 30) scale(0.9166666666666666)" fill="none" stroke="#a78bfa" stroke-width="1.9636363636363638" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="66" y="48" class="sans" font-size="20" font-weight="700" fill="#f3f4f6">react-toaster</text></g>
+<g class="fu" style="animation-delay:0.35s"><text x="32" y="92" class="sans" font-size="15" fill="#9aa3b5">TypeScript project · last updated Jun 2025 — open the repo to</text><text x="32" y="116" class="sans" font-size="15" fill="#9aa3b5">explore the code.</text></g>
+<g class="fu" style="animation-delay:0.55s">
+  <circle cx="46" cy="158" r="6" fill="#3178c6"/><text x="58" y="163" class="sans" font-size="13.5" fill="#f3f4f6">TypeScript</text>
+  <path d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z" transform="translate(466 145) scale(0.75)" fill="none" stroke="#fbbf24" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/><text x="490" y="163" class="sans" font-size="14" font-weight="600" fill="#f3f4f6">1</text>
+  <path d="M6 3a3 3 0 1 0 0 .01M18 3a3 3 0 1 0 0 .01M12 21a3 3 0 1 0 0-.01M6 6v2a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V6M12 12v6" transform="translate(520 145) scale(0.75)" fill="none" stroke="#9aa3b5" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/><text x="544" y="163" class="sans" font-size="14" font-weight="600" fill="#f3f4f6">0</text></g>
+<rect x="32" y="190" width="0" height="3" rx="1.5" fill="url(#grad)"><animate attributeName="width" from="0" to="526" begin=".6s" dur="1.4s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></rect>
+</svg>

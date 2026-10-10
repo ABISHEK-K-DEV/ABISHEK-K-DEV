@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="320" viewBox="0 0 590 320" role="img" aria-label="K ABISHEK&apos;s GitHub stats">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070a14"/><stop offset="1" stop-color="#11162c"/></linearGradient>
+  <linearGradient id="bd" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#a78bfa"/><stop offset=".35" stop-color="#22d3ee" stop-opacity=".25"/>
+    <stop offset=".65" stop-color="#f472b6" stop-opacity=".25"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="8s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+    <stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+    <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="6s" repeatCount="indefinite"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
+  <radialGradient id="vig" cx=".5" cy=".4" r=".75"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+  <mask id="gm"><rect width="590" height="320" fill="url(#vig)"/></mask>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="64"/></filter>
+  <filter id="glow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  <clipPath id="clip"><rect width="590" height="320" rx="22"/></clipPath>
+  <style>
+  .sans{font-family:'Segoe UI',Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif} .mono{font-family:'JetBrains Mono','Cascadia Code',Consolas,'SFMono-Regular',Menlo,monospace}
+  .fu{opacity:0;animation:fu .8s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes fu{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+  .pop{opacity:0;transform-box:fill-box;transform-origin:center;animation:pop .6s cubic-bezier(.34,1.56,.64,1) forwards}
+  @keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:none}}
+  .orb{animation:float 16s ease-in-out infinite}
+  .orb2{animation-duration:21s;animation-direction:reverse}
+  @keyframes float{0%,100%{transform:translate(0,0)}33%{transform:translate(50px,-25px)}66%{transform:translate(-35px,30px)}}
+  .shine{animation:shine 7s ease-in-out infinite}
+  @keyframes shine{0%,55%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
+  .twinkle{animation:tw 3s ease-in-out infinite}
+  @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 2.2s ease-out infinite}
+  @keyframes pulse{0%{transform:scale(1);opacity:.75}100%{transform:scale(3.2);opacity:0}}
+  .bob{animation:bob 4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+  .blink{animation:blink 1s steps(1) infinite} @keyframes blink{50%{opacity:0}}
+</style>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="590" height="320" fill="url(#bg)"/>
+  <g filter="url(#blur)" opacity=".5">
+    <circle class="orb" cx="70.8" cy="32" r="144" fill="#a78bfa"/>
+    <circle class="orb orb2" cx="531" cy="304" r="144" fill="#22d3ee"/>
+  </g>
+  <rect width="590" height="320" fill="url(#grid)" mask="url(#gm)"/>
+  <circle class="twinkle" cx="0" cy="0" r="1.4" fill="#fff" style="animation-delay:0s"/><circle class="twinkle" cx="533" cy="239" r="0.9" fill="#fff" style="animation-delay:0.45s"/><circle class="twinkle" cx="476" cy="158" r="0.9" fill="#fff" style="animation-delay:0.9s"/><circle class="twinkle" cx="419" cy="77" r="1.4" fill="#fff" style="animation-delay:1.35s"/><circle class="twinkle" cx="362" cy="316" r="0.9" fill="#fff" style="animation-delay:1.8s"/><circle class="twinkle" cx="305" cy="235" r="0.9" fill="#fff" style="animation-delay:2.25s"/><circle class="twinkle" cx="248" cy="154" r="1.4" fill="#fff" style="animation-delay:2.7s"/>
+  <rect class="shine" x="0" y="0" width="590" height="320" fill="url(#sweep)" transform="skewX(-20)"/>
+</g>
+<rect x="1" y="1" width="588" height="318" rx="21" fill="none" stroke="url(#bd)" stroke-width="1.6"/>
+<g class="fu">
+  <rect x="32" y="34" width="4" height="22" rx="2" fill="url(#grad)"/>
+  <text x="48" y="52" class="sans" font-size="20" font-weight="700" fill="#f3f4f6" letter-spacing=".3">GitHub Stats</text>
+  <circle cx="185.60000000000002" cy="45" r="3.5" fill="#a78bfa"/><circle class="pulse" cx="185.60000000000002" cy="45" r="3.5" fill="#a78bfa"/>
+</g>
+<g class="fu" style="animation-delay:0.25s"><path d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z" transform="translate(34 89) scale(0.75)" fill="none" stroke="#fbbf24" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="104" class="sans" font-size="15" fill="#9aa3b5">Total Stars</text>
+  <text x="300" y="104" text-anchor="end" class="sans" font-size="16" font-weight="700" fill="#f3f4f6">7</text></g><g class="fu" style="animation-delay:0.35s"><path d="M12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8zM2 12h6M16 12h6" transform="translate(34 123) scale(0.75)" fill="none" stroke="#a78bfa" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="138" class="sans" font-size="15" fill="#9aa3b5">Total Commits</text>
+  <text x="300" y="138" text-anchor="end" class="sans" font-size="16" font-weight="700" fill="#f3f4f6">4,437</text></g><g class="fu" style="animation-delay:0.45s"><path d="M6 3v12M6 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM6 3a3 3 0 1 0 0 .01M18 21V9a4 4 0 0 0-4-4h-3M18 15a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM13 2l-2 3 2 3" transform="translate(34 157) scale(0.75)" fill="none" stroke="#22d3ee" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="172" class="sans" font-size="15" fill="#9aa3b5">Pull Requests</text>
+  <text x="300" y="172" text-anchor="end" class="sans" font-size="16" font-weight="700" fill="#f3f4f6">4</text></g><g class="fu" style="animation-delay:0.55s"><path d="M12 3a9 9 0 1 1 0 18 9 9 0 0 1 0-18zM12 8v5M12 16v.5" transform="translate(34 191) scale(0.75)" fill="none" stroke="#f472b6" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="206" class="sans" font-size="15" fill="#9aa3b5">Issues</text>
+  <text x="300" y="206" text-anchor="end" class="sans" font-size="16" font-weight="700" fill="#f3f4f6">0</text></g><g class="fu" style="animation-delay:0.65s"><path d="M5 4a2 2 0 0 1 2-2h12v16H7a2 2 0 0 0-2 2zM5 20a2 2 0 0 0 2 2h12v-4" transform="translate(34 225) scale(0.75)" fill="none" stroke="#34d399" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="240" class="sans" font-size="15" fill="#9aa3b5">Repositories</text>
+  <text x="300" y="240" text-anchor="end" class="sans" font-size="16" font-weight="700" fill="#f3f4f6">34</text></g><g class="fu" style="animation-delay:0.75s"><path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14H4zM4 10h16M9 2v4M15 2v4" transform="translate(34 259) scale(0.75)" fill="none" stroke="#60a5fa" stroke-width="2.4000000000000004" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="274" class="sans" font-size="15" fill="#9aa3b5">Last 12 Months</text>
+  <text x="300" y="274" text-anchor="end" class="sans" font-size="16" font-weight="700" fill="#f3f4f6">3,425</text></g>
+<g class="fu" style="animation-delay:0.3s"><circle cx="450" cy="180" r="78" fill="none" stroke="#fff" stroke-opacity=".07" stroke-width="12"/>
+<circle cx="450" cy="180" r="78" fill="none" stroke="url(#grad)" stroke-width="18" stroke-linecap="round" opacity=".35" filter="url(#soft)"
+  stroke-dasharray="490.09" stroke-dashoffset="490.09" transform="rotate(-90 450 180)">
+  <animate attributeName="stroke-dashoffset" from="490.09" to="42.81" begin="0.5s" dur="2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></circle>
+<circle cx="450" cy="180" r="78" fill="none" stroke="url(#grad)" stroke-width="12" stroke-linecap="round"
+  stroke-dasharray="490.09" stroke-dashoffset="490.09" transform="rotate(-90 450 180)">
+  <animate attributeName="stroke-dashoffset" from="490.09" to="42.81" begin="0.5s" dur="2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/></circle>
+<g transform="rotate(-90 450 180)"><circle cx="528" cy="180" r="8" fill="#fff" opacity="0">
+  <animateTransform attributeName="transform" type="rotate" from="0 450 180" to="328.55 450 180" begin="0.5s" dur="2s" fill="freeze" calcMode="spline" keySplines=".2 .8 .2 1"/>
+  <animate attributeName="opacity" values="0;1" begin="0.5s" dur=".2s" fill="freeze"/></circle></g>
+  <text x="450" y="172" text-anchor="middle" class="sans" font-size="38" font-weight="800" fill="url(#grad)">4,472</text>
+  <text x="450" y="198" text-anchor="middle" class="sans" font-size="12" font-weight="600" letter-spacing="1.5" fill="#9aa3b5">CONTRIBUTIONS</text>
+  <rect x="412" y="212" width="76" height="22" rx="11" fill="#a78bfa" fill-opacity=".15" stroke="#a78bfa" stroke-opacity=".5"/>
+  <text x="450" y="227" text-anchor="middle" class="mono" font-size="12" font-weight="700" fill="#a78bfa">LVL 36</text>
+</g>
+</svg>
