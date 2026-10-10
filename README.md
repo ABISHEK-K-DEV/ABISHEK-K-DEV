@@ -1,79 +1,72 @@
-<!--
-  Every card on this page is a custom animated SVG.
-  Fixed cards live in assets/ (regenerate: node scripts/cards.mjs static).
-  Live cards are rebuilt every 6 hours by .github/workflows/profile-cards.yml and published to the output branch.
-  Real text (headings, intro, project list) stays alongside the cards so search engines can index the page.
--->
+# 💫 About Me:
+Hi, I'm **Abishek K** — a passionate tech enthusiast with deep interests in computer science and technology. I thrive on solving complex problems and exploring new trends. My main focus areas are web and mobile app development, and cloud technologies, always learning and growing in the tech ecosystem.
 
-<div align="center">
+- 🌱 Currently learning advanced **backend development** and **cloud solutions**
+- 💬 Ask me about **Web Development**, **Flutter**, or **Cloud Services**
+- 📫 Reach me: [abishek1071996@gmail.com](mailto:abishek1071996@gmail.com)
+- ⚡ Fun fact: I enjoy experimenting with design tools like Photoshop and Figma in my spare time
 
-<img src="./assets/hero.svg" width="100%" alt="Abishek K — Full Stack MERN Developer specialising in React, Node.js, Express, MongoDB, Flutter, AWS and SQL" />
+## 🌐 Socials & Links
 
-<h1>Abishek K · Full Stack MERN Developer</h1>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abishek-fullstack/)
+[![npm](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/~abisheks238)
+---
 
-<p><b>React · Node.js · Express · MongoDB · Flutter · AWS · SQL</b></p>
+## 📦 npm Packages
 
-<p>
-I'm <b>Abishek K</b>, a <b>full stack developer</b> who builds <b>scalable web applications</b>, <b>admin dashboards</b> and <b>REST APIs</b>
-with the <b>MERN stack</b>, cross-platform <b>mobile apps with Flutter</b>, and cloud deployments on <b>AWS</b>.
-I'm also the author of the open-source npm package <a href="https://www.npmjs.com/package/@abisheks238/react-toaster"><b>@abisheks238/react-toaster</b></a>.
-</p>
+- Main package: [@abisheks238/react-toaster](https://www.npmjs.com/package/@abisheks238/react-toaster)  
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ABISHEK-K-DEV/react-toaster)
+  
 
-<a href="https://www.linkedin.com/in/abishek-fullstack/" title="Abishek K on LinkedIn"><img src="./assets/btn-linkedin.svg" height="46" alt="Abishek K on LinkedIn" /></a>
-<a href="mailto:abishek1071996@gmail.com" title="Email Abishek K"><img src="./assets/btn-email.svg" height="46" alt="Email Abishek K" /></a>
-<a href="https://www.npmjs.com/~abisheks238" title="Abishek K on npm"><img src="./assets/btn-npm.svg" height="46" alt="Abishek K's npm packages" /></a>
-<a href="https://github.com/ABISHEK-K-DEV?tab=repositories" title="All repositories"><img src="./assets/btn-github.svg" height="46" alt="Abishek K's GitHub repositories" /></a>
+---
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+## 💻 Tech Stack:
 
-<h2>👨‍💻 About Me</h2>
+### Programming & Scripting Languages
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Dart](https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-%2307405e.svg?style=for-the-badge&logo=sql&logoColor=white)
 
-<img src="./assets/about.svg" width="100%" alt="About Abishek K: builds scalable web apps, admin dashboards and REST APIs; leveling up in advanced backend and cloud architecture; ask about React, Node.js, Flutter or AWS; author of @abisheks238/react-toaster; designs in Figma and Photoshop." />
+### Frontend Development
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-<h2>🧰 Tech Stack</h2>
+### Backend Development
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 
-<img src="./assets/stack.svg" width="100%" alt="Tech stack: JavaScript, TypeScript, Dart, SQL, Python, HTML5, CSS3, React, Node.js, Express, MongoDB, Flutter, AWS, Amazon S3, Git, GitHub, VS Code, Figma, Photoshop, Canva" />
+### Mobile App Development
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
 
-<sub><b>Languages</b> JavaScript, TypeScript, Dart, SQL, Python · <b>Frontend</b> React, HTML5, CSS3 · <b>Backend</b> Node.js, Express.js, MongoDB · <b>Mobile</b> Flutter · <b>Cloud</b> AWS, Amazon S3 · <b>Design</b> Figma, Photoshop, Canva</sub>
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+### UI/UX Design
+![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
-<h2>🚀 Featured Projects</h2>
+---
 
-<a href="https://github.com/ABISHEK-K-DEV/react-toaster"><img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/project-react-toaster.svg" width="49%" alt="react-toaster — React toast notification library by Abishek K" /></a>
-<a href="https://github.com/ABISHEK-K-DEV/CollabHub"><img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/project-CollabHub.svg" width="49%" alt="CollabHub — TypeScript project by Abishek K" /></a>
-<a href="https://github.com/ABISHEK-K-DEV/FinaceFlow"><img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/project-FinaceFlow.svg" width="49%" alt="FinaceFlow — TypeScript project by Abishek K" /></a>
-<a href="https://github.com/ABISHEK-K-DEV/Voice-Controlled-AI-Using-ChatGPT-And-Other-Software-Tools"><img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/project-Voice-Controlled-AI-Using-ChatGPT-And-Other-Software-Tools.svg" width="49%" alt="Voice-Controlled AI using ChatGPT — Python project by Abishek K" /></a>
+## 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=ABISHEK-K-DEV&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=ABISHEK-K-DEV&theme=radical&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ABISHEK-K-DEV&theme=radical&hide_border=false&layout=compact)
 
-<sub>
-<a href="https://github.com/ABISHEK-K-DEV/react-toaster">react-toaster</a> (React npm library) ·
-<a href="https://github.com/ABISHEK-K-DEV/CollabHub">CollabHub</a> (TypeScript) ·
-<a href="https://github.com/ABISHEK-K-DEV/FinaceFlow">FinaceFlow</a> (TypeScript) ·
-<a href="https://github.com/ABISHEK-K-DEV/Voice-Controlled-AI-Using-ChatGPT-And-Other-Software-Tools">Voice-Controlled AI with ChatGPT</a> (Python)
-</sub>
+---
 
-<img src="./assets/divider.svg" width="100%" alt="" />
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=ABISHEK-K-DEV&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-<h2>📊 GitHub Analytics</h2>
+---
 
-<img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/stats.svg" width="49%" alt="Abishek K's GitHub stats: stars, commits, pull requests and total contributions" />
-<img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/languages.svg" width="49%" alt="Abishek K's most used programming languages" />
+## ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-<img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/streak.svg" width="100%" alt="Abishek K's GitHub contribution streak" />
+---
 
-<img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/activity.svg" width="100%" alt="Abishek K's contribution activity heatmap for the last year" />
-
-<sub>Live cards refresh automatically every 6 hours.</sub>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
-<h2>🐍 Contribution Snake</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/snake.svg" />
-  <img src="https://raw.githubusercontent.com/ABISHEK-K-DEV/ABISHEK-K-DEV/output/snake-light.svg" width="100%" alt="Snake animation eating Abishek K's GitHub contribution graph" />
-</picture>
-
-<img src="./assets/footer.svg" width="100%" alt="Thanks for visiting Abishek K's GitHub profile" />
-
-</div>
+## 🔝 Top Contributed Repositories
+![](https://github-contributor-stats.vercel.app/api?username=ABISHEK-K-DEV&limit=5&theme=radical&combine_all_yearly_contributions=true)
