@@ -322,18 +322,6 @@ function divider() {
 }
 
 
-function sectionTitle(text, sub) {
-  const w = 1200, h = 96;
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(text)}">
-<defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect"><stop offset="0" stop-color="${C.violet}"/><stop offset=".5" stop-color="${C.cyan}"/><stop offset="1" stop-color="${C.pink}"/>
-<animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0" dur="6s" repeatCount="indefinite"/></linearGradient>
-<filter id="glow" x="-20%" y="-80%" width="140%" height="260%"><feGaussianBlur stdDeviation="8"/></filter>
-<style>${BASE_CSS}</style></defs>
-<g class="fu"><text x="600" y="50" text-anchor="middle" class="sans" font-size="34" font-weight="800" letter-spacing="-.5" fill="url(#grad)" filter="url(#glow)" opacity=".5">${esc(text)}</text>
-<text x="600" y="50" text-anchor="middle" class="sans" font-size="34" font-weight="800" letter-spacing="-.5" fill="url(#grad)">${esc(text)}</text></g>
-<text x="600" y="80" text-anchor="middle" class="sans fu" ${delay(0.25)} font-size="15" fill="#8b93a7">${esc(sub)}</text></svg>`;
-}
-
 // ───────────────────────────── live data ─────────────────────────────
 
 async function gql(token, query, variables) {
@@ -416,7 +404,7 @@ function statsCard(d) {
   const rows = [
     ["star", C.amber, "Total Stars", d.stars], ["commit", C.violet, "Total Commits", d.commits],
     ["pr", C.cyan, "Pull Requests", d.prs], ["issue", C.pink, "Issues", d.issues],
-    ["repo", C.green, "Repositories", d.repos], ["users", "#60a5fa", "Contributed to", d.contributedTo],
+    ["repo", C.green, "Repositories", d.repos], ["calendar", "#60a5fa", "Last 12 Months", d.calendar.totalContributions],
   ];
   // Level ring: log-scaled progress toward 10k contributions
   const p = Math.min(1, Math.log10(1 + d.total) / 4);
@@ -502,12 +490,17 @@ ${col(980, s.longest.len, "LONGEST STREAK", rng(s.longest), C.violet, 2)}`;
   return frame({ w, h, title: "Contribution Streak", body, orbs: [C.pink, C.amber], accent: C.amber });
 }
 
+const HEAT = ["#3b2a78", "#7c3aed", "#22d3ee", "#f472b6"];
+
 function heatmapCard(d) {
   const weeks = d.calendar.weeks, cell = 16, g = 4, x0 = Math.round((1200 - weeks.length * 20) / 2) + 14, y0 = 104;
   const w = 1200, h = y0 + 7 * (cell + g) + 70;
-  const max = Math.max(1, ...weeks.flatMap((wk) => wk.contributionDays.map((x) => x.contributionCount)));
-  const shade = (n) => (n === 0 ? null : [C.violet, "#8b5cf6", C.cyan, C.pink][Math.min(3, Math.floor((n / max) * 4 - 1e-9))]);
-  const lvl = (n) => (n === 0 ? 0.06 : 0.45 + 0.55 * Math.min(1, n / max));
+  // Quartiles of active days (like GitHub's own graph) so a few huge days don't flatten the rest
+  const active = weeks.flatMap((wk) => wk.contributionDays.map((x) => x.contributionCount)).filter((n) => n > 0).sort((a, b) => a - b);
+  const q = [0.25, 0.5, 0.75].map((f) => active[Math.floor(f * (active.length - 1))] ?? 1);
+  const level = (n) => (n === 0 ? 0 : n <= q[0] ? 1 : n <= q[1] ? 2 : n <= q[2] ? 3 : 4);
+  const shade = (n) => [null, ...HEAT][level(n)];
+  const lvl = (n) => (n === 0 ? 0.06 : 1);
   let months = "", lastM = -1;
   const cells = weeks.map((wk, wi) => wk.contributionDays.map((day) => {
     const m = new Date(day.date + "T00:00:00Z").getUTCMonth();
@@ -518,7 +511,7 @@ function heatmapCard(d) {
     const col = shade(day.contributionCount);
     return `<rect class="c" x="${x0 + wi * (cell + g)}" y="${y0 + day.weekday * (cell + g)}" width="${cell}" height="${cell}" rx="4" fill="${col || "#fff"}" fill-opacity="${r2(lvl(day.contributionCount))}" ${delay(0.2 + wi * 0.03 + day.weekday * 0.02)}/>`;
   }).join("")).join("");
-  const legend = [0, 1, 2, 3, 4].map((i) => `<rect x="${1040 + i * 22}" y="${h - 46}" width="16" height="16" rx="4" fill="${i ? [C.violet, "#8b5cf6", C.cyan, C.pink][i - 1] : "#fff"}" fill-opacity="${i ? 0.45 + i * 0.13 : 0.06}"/>`).join("");
+  const legend = [0, 1, 2, 3, 4].map((i) => `<rect x="${1040 + i * 22}" y="${h - 46}" width="16" height="16" rx="4" fill="${i ? HEAT[i - 1] : "#fff"}" fill-opacity="${i ? 1 : 0.06}"/>`).join("");
   const body = `${months}${["Mon", "Wed", "Fri"].map((t, i) => `<text x="${x0 - 12}" y="${y0 + (1 + i * 2) * (cell + g) + 12}" text-anchor="end" class="sans" font-size="11" fill="${C.dim}">${t}</text>`).join("")}
 ${cells}
 <text x="${x0}" y="${h - 33}" class="sans fu" ${delay(0.4)} font-size="15" fill="${C.sub}"><tspan font-weight="800" fill="${C.text}">${fmt(d.calendar.totalContributions)}</tspan> contributions in the last year</text>
@@ -529,7 +522,9 @@ ${cells}
 
 function projectCard(r, i) {
   const w = 590, h = 210, lang = r.primaryLanguage, accent = [C.violet, C.cyan, C.pink, C.amber][i % 4];
-  const desc = wrap(r.description || "No description yet — check out the repository.", 62, 2);
+  const updated = r.pushedAt ? new Date(r.pushedAt).toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" }) : null;
+  const fallback = `${lang ? lang.name + " project" : "Project"}${updated ? ` · last updated ${updated}` : ""} — open the repo to explore the code.`;
+  const desc = wrap(r.description || fallback, 62, 2);
   const topics = (r.repositoryTopics?.nodes || []).map((n) => n.topic.name).slice(0, 3);
   let tx = 32;
   const chips = topics.map((t) => { const cw = t.length * 7.4 + 20, s = `<rect x="${tx}" y="146" width="${cw}" height="24" rx="12" fill="${accent}" fill-opacity=".12" stroke="${accent}" stroke-opacity=".4"/><text x="${tx + cw / 2}" y="162" text-anchor="middle" class="mono" font-size="11.5" fill="${accent}">${esc(t)}</text>`; tx += cw + 8; return s; }).join("");
@@ -558,9 +553,6 @@ if (mode === "static") {
   await save(dir, "stack.svg", stack());
   await save(dir, "divider.svg", divider());
   await save(dir, "footer.svg", footer());
-  await save(dir, "title-projects.svg", sectionTitle("Featured Work", "Things I've built and shipped"));
-  await save(dir, "title-analytics.svg", sectionTitle("GitHub Analytics", "Refreshed automatically every 6 hours"));
-  await save(dir, "title-snake.svg", sectionTitle("Contribution Snake", "Watch it eat through a year of commits"));
   for (const b of ["linkedin", "email", "npm", "github"]) await save(dir, `btn-${b}.svg`, button(b));
 } else if (mode === "live") {
   const dir = outArg || "dist";
