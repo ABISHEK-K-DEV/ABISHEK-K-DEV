@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="52" viewBox="0 0 148 52" role="img" aria-label="LinkedIn">
+<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a66c2"/><stop offset=".5" stop-color="#0a66c2" stop-opacity=".15"/><stop offset="1" stop-color="#22d3ee"/>
+<animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="5s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="148" height="52" rx="14"/></clipPath>
+<style>.sans{font-family:'Segoe UI',Inter,Ubuntu,'Helvetica Neue',Arial,sans-serif}.s{animation:s 4s ease-in-out infinite}@keyframes s{0%,60%{transform:translateX(-100%)}100%{transform:translateX(200%)}}
+.g{animation:g 3s ease-in-out infinite}@keyframes g{0%,100%{opacity:.25}50%{opacity:.55}}</style></defs>
+<g clip-path="url(#c)"><rect width="148" height="52" fill="#070a14"/><rect class="g" width="148" height="52" fill="#0a66c2" opacity=".3"/>
+<rect class="s" width="74" height="52" fill="url(#sw)" transform="skewX(-20)"/></g>
+<rect x="1" y="1" width="146" height="50" rx="13" fill="none" stroke="url(#bd)" stroke-width="1.6"/>
+<rect x="20" y="15" width="22" height="22" rx="5" fill="#0a66c2"/><text x="31" y="31.5" text-anchor="middle" class="sans" font-size="13" font-weight="800" fill="#fff">in</text>
+<text x="52" y="31" class="sans" font-size="15" font-weight="700" fill="#fff">LinkedIn</text></svg>
